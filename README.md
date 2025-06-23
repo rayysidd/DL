@@ -1,26 +1,44 @@
-🧠 Machine Learning Projects
-This repository contains my ongoing machine learning projects — from foundational algorithm implementations to practical applications. Each project focuses on a core concept, helping build a deep understanding of ML systems from the ground up.
+## 🧠 Machine Learning Projects
 
-✅ Currently includes: regression models on real-world data, custom autograd engine, and a character-level bigram language model.
+This repository contains my ongoing machine learning projects — from foundational algorithm implementations to applied experiments. It also tracks my progress through a structured deep learning roadmap based on PyTorch.
 
-📁 Projects Included
-1. LEGO Price Prediction (Applied ML)
-Applied and evaluated multiple regression models to predict LEGO set prices using features like number of pieces, release year, and number of minifigures.
+---
 
-Performed preprocessing with min-max scaling and log transformation.
+### 📁 Projects Included
 
-Trained models using scikit-learn and visualized performance metrics.
+#### 1. **LEGO Price Prediction (Applied ML)**
 
-2. micrograd Clone (Autograd from Scratch)
-Implemented a minimal scalar-based autograd engine in Python to support reverse-mode differentiation.
+- Applied and evaluated multiple regression models to predict LEGO set prices using features like number of pieces, release year, and number of minifigures.
+- Performed preprocessing using min-max scaling and log transformation.
+- Used scikit-learn for training and visualized results.
 
-Built foundational components such as Value objects, computational graph construction, and backward pass.
+#### 2. **micrograd Clone (Autograd from Scratch)**
 
-Serves as the computational core for basic neural nets.
+- Implemented a minimal scalar-based autograd engine in Python.
+- Supports computational graph creation and reverse-mode differentiation.
+- Mimics core PyTorch functionality at a low level.
 
-3. makemore – Part 1 (Bigram Language Model)
-Implemented a character-level bigram model to generate names, following the first part of Andrej Karpathy's makemore series.
+#### 3. **makemore – Part 1 (Bigram Language Model)**
 
-Used basic probability and statistics to build the model without deep learning frameworks.
+- Implemented a character-level bigram model to generate names.
+- Trained on a name dataset to learn character transitions.
+- First part of a full deep learning series on text generation.
 
-Trained on a small dataset of names to learn character-to-character transitions.
+---
+
+### 🧱 In Progress: Deep Learning Roadmap
+
+I am currently working through a structured deep learning roadmap using PyTorch, covering key concepts like CNNs, RNNs, Transformers, GANs, and Autoencoders.
+
+🖼️ Reference roadmap (25 checkpoints):
+![Deep Learning Roadmap](./65e9fc97-7221-4d73-b9f0-1e22b877acd2.png)
+
+---
+
+### 📌 Upcoming Projects
+
+- CNN for MNIST visualization & classification
+- Optimizer comparison (SGD, Adam, RMSProp)
+- Image segmentation using UNet
+- GAN and CycleGAN implementation
+- Variational Autoencoders and Transformers for NLP
