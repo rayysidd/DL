@@ -12,7 +12,7 @@ This repository contains my ongoing machine learning projects — from foundatio
 - Performed preprocessing using min-max scaling and log transformation.
 - Used scikit-learn for training and visualized results.
 
-#### 2. **micrograd Clone (Autograd from Scratch)**
+#### 2. **Micrograd (Autograd from Scratch)**
 
 - Implemented a minimal scalar-based autograd engine in Python.
 - Supports computational graph creation and reverse-mode differentiation.
@@ -31,7 +31,7 @@ This repository contains my ongoing machine learning projects — from foundatio
 I am currently working through a structured deep learning roadmap using PyTorch, covering key concepts like CNNs, RNNs, Transformers, GANs, and Autoencoders.
 
 🖼️ Reference roadmap (25 checkpoints):
-![Deep Learning Roadmap](./65e9fc97-7221-4d73-b9f0-1e22b877acd2.png)
+![Deep Learning Roadmap](./todo.png)
 
 ---
 
